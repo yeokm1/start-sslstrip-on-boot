@@ -1,5 +1,7 @@
 [Unit]
 Description=To start sslstrip on startup
+Wants=network-online.target
+After=network-online.target
 
 [Install]
 WantedBy=multi-user.target
