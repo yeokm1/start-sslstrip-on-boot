@@ -30,3 +30,5 @@ systemctl enable start-ssl-strip.service
 3) Optionally configure static IP on the Raspberry Pi
 
 4) Configure the gateway setting on your client permission to point to the IP address of the Raspberry Pi.
+
+5) Once all testing is complete, you can configure a readonly-filesystem on the Raspberry Pi to avoid file system corruption from improper shutdown. Follow my [gist here](https://gist.github.com/yeokm1/8b0ffc03e622ce011010).
