@@ -23,8 +23,8 @@ systemctl enable iptables.service
 cd ~
 git clone https://github.com/yeokm1/start-sslstrip-on-boot.git
 cd start-sslstrip-on-boot
-cp start-ssl-strip.service /etc/systemd/system/
-systemctl enable start-ssl-strip.service
+cp start-sslstrip.service /etc/systemd/system/
+systemctl enable start-sslstrip.service
 ```
 
 3) Optionally configure static IP on the Raspberry Pi. Reboot the RPi once set up.
