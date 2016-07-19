@@ -8,7 +8,7 @@ Tested on Raspberry Pi 3 but others should work as well
 
 1) Install Arch Linux ARM as per instructions in this [link](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3).
 
-2. Login as root and run the following commands
+2) Login as root and run the following commands
 
 ```bash
 pacman -Syu sslstrip git
@@ -27,6 +27,6 @@ cp start-ssl-strip.service /etc/systemd/system/
 systemctl enable start-ssl-strip.service
 ```
 
-3. Optionally configure static IP on the Raspberry Pi
+3) Optionally configure static IP on the Raspberry Pi
 
-3. Configure the gateway setting on your client permission to point to the IP address of the Raspberry Pi.
+4) Configure the gateway setting on your client permission to point to the IP address of the Raspberry Pi.
