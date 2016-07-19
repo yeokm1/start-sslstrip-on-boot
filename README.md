@@ -27,7 +27,7 @@ cp start-ssl-strip.service /etc/systemd/system/
 systemctl enable start-ssl-strip.service
 ```
 
-3) Optionally configure static IP on the Raspberry Pi
+3) Optionally configure static IP on the Raspberry Pi. Reboot the RPi once set up.
 
 4) Configure the gateway setting on your client permission to point to the IP address of the Raspberry Pi.
 
