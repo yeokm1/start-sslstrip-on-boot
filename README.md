@@ -31,7 +31,7 @@ systemctl enable start-sslstrip.service
 
 4) Configure the gateway setting on your client permission to point to the IP address of the Raspberry Pi.
 
-5) Once all testing is complete, you can configure a corruption-resistance file system on the Raspberry Pi to avoid data corruption from improper shutdown. 
+5) Once all testing is complete, you can configure a corruption-resistant file system on the Raspberry Pi to avoid data corruption from improper shutdown. 
 
 ```bash
 tune2fs -o journal_data /dev/mmcblk0p2
