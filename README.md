@@ -1,10 +1,10 @@
 # start-sslstrip-on-boot
 Scripts to to start SSLStrip on boot for Arch Linux ARM on Raspberry Pi
 
-##Hardware Required
+## Hardware Required
 Tested on Raspberry Pi 3 but others should work as well
 
-##Installation Instructions
+## Installation Instructions
 
 1) Install Arch Linux ARM as per instructions in this [link](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3).
 
